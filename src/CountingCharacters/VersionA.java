@@ -1,6 +1,8 @@
 package CountingCharacters;
 
- /**
+import java.util.Scanner;
+
+/**
   * DESCRIPTION
   * Create a program that prompts for an input string and displays output that shows
   * the input string and number of characters the string contains.
@@ -23,7 +25,22 @@ public class VersionA
     public static void main(String[] args)
     {
 
+        String string;
+        int count;
+        Scanner s = new Scanner(System.in);
 
+        System.out.println("Type your string here:");
+        string = s.nextLine().toUpperCase();
+        count = string.length();
+
+        if (count == 0)
+        {
+            System.out.println("Must enter at least one character!");
+        }
+        else
+        {
+            System.out.println(string + " (" + count + " characters)");
+        }
 
     }
 
