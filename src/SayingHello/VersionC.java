@@ -1,10 +1,12 @@
-package SayingHello;/*
+package SayingHello;
+
+/**
  * DESCRIPTION
  * Create a program that prompts for your name and prints a greeting using your name.
- * 
+ *
  * CONSTRAINTS
  * 		- keep the input, string concatenation and output separate.
- * 
+ *
  * CHALLENGES
  *		- Write a new version (VersionB Class) of the program without using any variables
  *		- Write a new version (VersionC Class) of the program that displays different
@@ -15,10 +17,6 @@ import java.util.Scanner;
 
 public class VersionC
 {
-	
-	/*
-	 * 	UNFINISHED
-	 */
 
 	public static void main(String[] args)
 	{
@@ -29,15 +27,15 @@ public class VersionC
 		name = s.nextLine();
 		
 		// Different greeting outputs based on different users
-		if (name == "Chris")
+		if (name.equals("Chris"))
 		{
 			System.out.println("Greetings, " + name + "!");
 		}
-		else if (name == "Spock")
+		else if (name.equals("Spock"))
 		{
 			System.out.println("Live Long and Prosper, Mr. " + name);
 		}
-		else if (name == "Picard")
+		else if (name.equals("Picard"))
 		{
 			System.out.println(name + ", make it so!");
 		}

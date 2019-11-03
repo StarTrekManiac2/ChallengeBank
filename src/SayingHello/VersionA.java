@@ -1,10 +1,12 @@
-package SayingHello;/*
+package SayingHello;
+
+/**
  * DESCRIPTION
  * Create a program that prompts for your name and prints a greeting using your name.
- * 
+ *
  * CONSTRAINTS
  * 		- keep the input, string concatenation and output separate.
- * 
+ *
  * CHALLENGES
  *		- Write a new version (VersionB Class) of the program without using any variables
  *		- Write a new version (VersionC Class) of the program that displays different
